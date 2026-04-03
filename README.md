@@ -60,6 +60,17 @@
   </tr>
 </table>
 
+<!-- 🌐 Google Translate Script (same page) -->
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en'
+  }, 'google_translate_element');
+}
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
  <footer style="margin: 20px 0; color: gray;">
  <p>© 2026 Anil Giri. All rights reserved.</p>
 </footer>
