@@ -37,12 +37,12 @@
       <h2>Emergency Contacts</h2>
       <ul>
         <li>Local Police: 100</li>
-        <li>Women Helpline: 1091</li>
-        <li>National Commission for Women: 011-26942369</li>
+        <li>Women Police Helpline: 1901</li>
+        <li>National Emergency Number: 112</li>
+        <li>National Women Helpline: 181</li>
       </ul>
       <hr>
 
-      
       <h2>Resources</h2>
       <ul>
         <li><a href="https://www.unwomen.org" target="_blank">UN Women – Global Resources</a></li>
