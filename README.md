@@ -60,50 +60,6 @@
   </tr>
 </table>
 
-<select onchange="setLang(this.value)">
-  <option value="en">English</option>
-  <option value="hi">Hindi</option>
-  <option value="mr">Marathi</option>
-</select>
-
-<h3 id="welcome"></h3>
-<p id="desc"></p>
-<ul id="tips"></ul>
-<p id="contact"></p>
-
-<script>
-const texts = {
-  en:{
-    welcome:"Welcome",
-    desc:"Learn safety tips and emergency contacts.",
-    tips:["Share location with family","Avoid dark isolated areas","Keep phone charged"],
-    contact:"Email: anilgiri36@gmail.com | WhatsApp: <a href='https://wa.me/918379008152'>📱 Message</a>"
-  },
-  hi:{
-    welcome:"स्वागत है",
-    desc:"सुरक्षा टिप्स और आपातकालीन संपर्क जानें।",
-    tips:["परिवार के साथ लोकेशन साझा करें","अंधेरी जगहों से बचें","फोन चार्ज रखें"],
-    contact:"ईमेल: anilgiri36@gmail.com | व्हाट्सएप: <a href='https://wa.me/918379008152'>📱 संदेश</a>"
-  },
-  mr:{
-    welcome:"स्वागत आहे",
-    desc:"सुरक्षा टिप्स आणि आपत्कालीन संपर्क जाणून घ्या.",
-    tips:["कुटुंबासोबत स्थान शेअर करा","अंधाऱ्या ठिकाणांपासून दूर राहा","फोन चार्ज ठेवा"],
-    contact:"ईमेल: anilgiri36@gmail.com | व्हाट्सएप: <a href='https://wa.me/918379008152'>📱 संदेश</a>"
-  }
-};
-
-function setLang(lang){
-  document.getElementById("welcome").innerText = texts[lang].welcome;
-  document.getElementById("desc").innerText = texts[lang].desc;
-  document.getElementById("tips").innerHTML = texts[lang].tips.map(t=>`<li>${t}</li>`).join("");
-  document.getElementById("contact").innerHTML = texts[lang].contact;
-}
-
-// Initialize default language
-setLang('en');
-</script>
-
 
  <footer style="margin: 20px 0; color: gray;">
  <p>© 2026 Anil Giri. All rights reserved.</p>
