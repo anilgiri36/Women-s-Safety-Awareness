@@ -64,5 +64,7 @@
  <p>© 2026 Anil Giri. All rights reserved.</p>
 </footer>
 
+ <marquee><b style="color: green;">A page created by Anil Giri</b></marquee>
+
 </body>
 </html>
