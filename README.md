@@ -12,7 +12,7 @@
 
     
     <td width="25%" valign="top" align="center">
-      <img src="" alt="Safety Logo" width="150" height="150" style="border-radius:50%;"><br><br>
+      <img src="women-safety-awareness.png" alt="Safety Logo" width="150" height="150" style="border-radius:50%;"><br><br>
       <h2>Safety Awareness</h2>
     </td>
 
